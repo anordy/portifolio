@@ -47,6 +47,9 @@ ScrollReveal({
     delay: 200
 });
 
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portifolio-box, .contact form', { origin: 'bottom' });
 
@@ -55,8 +58,9 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // ===================    typed js ===========================
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Mobile Developer','UI/UX Designer'],
+    strings: ['Data-Driven Solutions Architect','Revenue Assurance Analyst','Data Analyst','Business Analyst','Financial Analyst','Software Engineer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 100
 });
+
